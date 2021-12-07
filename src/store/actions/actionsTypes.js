@@ -1,0 +1,10 @@
+export const GET_DATA_FAILED = "GET_DATA_FAILED";
+export const GET_DATA = "GET_DATA";
+export const SET_DATA = "SET_DATA";
+export const SET_LOADING = "SET_LOADING";
+export const SET_FAVORITE = "SET_FAVORITE";
+export const SET_DEGREES = "SET_DEGREES";
+export const SET_UPDATE = "SET_UPDATE";
+export const SET_NAME = "SET_NAME";
+export const API = "Cb4JVvleTdt5yXpZcm0RK3ARX6dsyfc1";
+// export const API = "GAFFDa4xymAQfyTKUT7UHvKoissWXaqILn";
