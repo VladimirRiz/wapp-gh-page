@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/wapp-gh-page/static/css/main.f41f5317.chunk.css",
+    "main.js": "/wapp-gh-page/static/js/main.9f01e18b.chunk.js",
+    "main.js.map": "/wapp-gh-page/static/js/main.9f01e18b.chunk.js.map",
+    "runtime-main.js": "/wapp-gh-page/static/js/runtime-main.ec3ce539.js",
+    "runtime-main.js.map": "/wapp-gh-page/static/js/runtime-main.ec3ce539.js.map",
+    "static/js/2.32091753.chunk.js": "/wapp-gh-page/static/js/2.32091753.chunk.js",
+    "static/js/2.32091753.chunk.js.map": "/wapp-gh-page/static/js/2.32091753.chunk.js.map",
+    "static/js/3.dd63d0b9.chunk.js": "/wapp-gh-page/static/js/3.dd63d0b9.chunk.js",
+    "static/js/3.dd63d0b9.chunk.js.map": "/wapp-gh-page/static/js/3.dd63d0b9.chunk.js.map",
+    "index.html": "/wapp-gh-page/index.html",
+    "static/css/main.f41f5317.chunk.css.map": "/wapp-gh-page/static/css/main.f41f5317.chunk.css.map",
+    "static/js/2.32091753.chunk.js.LICENSE.txt": "/wapp-gh-page/static/js/2.32091753.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ec3ce539.js",
+    "static/js/2.32091753.chunk.js",
+    "static/css/main.f41f5317.chunk.css",
+    "static/js/main.9f01e18b.chunk.js"
+  ]
+}
