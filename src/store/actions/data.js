@@ -42,16 +42,16 @@ export const getData = (city) => {
 		try {
 			dispatch(setLoading(true));
 			const { data } = await axios.get(
-				`http://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=${actionTypes.API}&q=${city}`
+				`https://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=${actionTypes.API}&q=${city}`
 			);
 			const key = await data[0].Key;
 
 			const fiveDays = await axios.get(
-				`http://dataservice.accuweather.com/forecasts/v1/daily/5day/${key}?apikey=${actionTypes.API}`
+				`https://dataservice.accuweather.com/forecasts/v1/daily/5day/${key}?apikey=${actionTypes.API}`
 			);
 
 			const weather = await axios.get(
-				`http://dataservice.accuweather.com/currentconditions/v1/${key}?apikey=${actionTypes.API}`
+				`https://dataservice.accuweather.com/currentconditions/v1/${key}?apikey=${actionTypes.API}`
 			);
 
 			// console.log(data, fiveDays, weather);
